@@ -6,4 +6,4 @@ Dont forget to install youtube-dl and make necessary changes in download folder 
 
 With this script you can download audio and video from youtube just send the youtube link and type audio for audio file or video for video file.
 
-You can share the media files from telegram and it will download them to your pc.
+You can share the media files from telegram and it will download them to your folder.
