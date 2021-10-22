@@ -1,0 +1,15 @@
+
+[Unit]
+Description=My Bot
+After=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/nitesh/mybot
+ExecStart=/bin/bash -c 'cd /nitesh/mybot && source bin/activate && python3.9 mybot.py'
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
