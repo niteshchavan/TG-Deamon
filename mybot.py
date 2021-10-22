@@ -35,13 +35,13 @@ TDD_VERSION="1.12"
 TELEGRAM_DAEMON_SESSION_PATH = getenv("TELEGRAM_DAEMON_SESSION_PATH")
 TELEGRAM_DAEMON_TEMP_SUFFIX="tdd"
 
-api_id = 4639348
-api_hash = 'a421577c38dc6269e055a1eff67c7482'
-channel_id = 1398700568
+api_id = 12345678
+api_hash = ''
+channel_id = 123456789
 downloadFolder = '/nitesh/media/movies/'
 tempFolder = '/nitesh/media/movies/'
 duplicates= 'ignore'
-token = '1895940855:AAFZaj7_Vqw69IL9Apip74ZkftAwbvli6dI'
+token = 'abcde:dsfjsdflsdkjf'
 audio_folder = '/nitesh/media/audio/%\(title\)s.%\(ext\)s'
 video_folder = '/nitesh/media/video/%\(title\)s.%\(ext\)s'
 folder = '/nitesh/media/video'
